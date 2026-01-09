@@ -171,3 +171,41 @@ nav {
   font-size: 16px;
   font-weight: 400;
 }
+/* feature section */
+.feature {
+  padding-bottom: 80px;
+  gap: 30px;
+}
+.feature-solution {
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.feature-title {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+.feature-content {
+  color: rgba(98, 115, 130, 1);
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+.feature-catagory {
+  color: rgba(0, 25, 49, 1);
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
+.feature-catagory p {
+  margin-bottom: 16px;
+}
+.feature-catagory img {
+  margin-right: 6px;
+}
