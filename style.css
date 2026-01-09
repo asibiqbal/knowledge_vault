@@ -13,7 +13,7 @@
 
 /* Shared Styles */
 .container {
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .btn {
@@ -126,4 +126,48 @@ nav {
 }
 .banner-btn i {
   padding-right: 10px;
+}
+/* structure item */
+.structure {
+  text-align: center;
+  padding-bottom: 120px;
+}
+.structure-items {
+  align-items: center;
+  gap: 18px;
+}
+.structure-item {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 24px 10px;
+}
+.structure-title {
+  color: rgba(0, 25, 49, 1);
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.structure-content {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.structure-item img {
+  padding: 12px;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+.structure-item h3 {
+  color: rgba(0, 25, 49, 1);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.structure-item p {
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+  font-weight: 400;
 }
